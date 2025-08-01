@@ -65,20 +65,68 @@ main{
 #video{
     width: 45%;
     height: 495px;
+    text-align: center;
+}
+#video > iframe{
+    margin-top: 20px;
+
 }
 #lado-direito{
     height: 495px;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 #redes{
     height: 35%;
+    text-align: center;
 }
 #login{
     height: 64%;
+    text-align: center
+}
+.opcoes{
+    width: 70%;
+    height: 40px;
+    background-color: #0a4b73;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.opcoes::placeholder{
+    text-align: center;
+    color: #ffffff;
+}
+#mais{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: #4fce2d;
+    width: 20%;
+    height: 40px;
+    color: #ffffff;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+button:active{
+    background-color: #0a4b73;
 }
 #apoio{
     height: 190px;
     width: 90%;
+    text-align: center
+}
+#apoio >img{
+    margin-top: -40px;
 }
 footer{
     height: 550px;
@@ -114,4 +162,29 @@ h1{
     text-align: start;
     margin: 20px;
     font-weight: 400;
+}
+/* Pag 2 */
+#geral2{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #f5f5f5ff;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.cards{
+    height: 320px;
+    width: 380px;
+    background-color: #ffffff;
+}
+.cards>ul{
+    width: 80%;
+    margin: auto;
+}
+#texto{
+    height: 320px;
+    width: 380px;
 }
